@@ -3,7 +3,7 @@
 /*criando variáveis*/
 :root { 
     --cor-de-fundo: #1E1E1E; 
-    --verde: #6FFF57; 
+    --lilas: #b70edd; 
     --branco: #FFFFFF; 
     --botao-ativo: #6b0545; 
     --botao-inativo: rgba(220, 169, 202, 0.5); 
@@ -33,7 +33,7 @@ body {
 }
  
 .titulo-principal span { 
-    color: var(--verde);
+    color: var(--lilas);
 }
 
 .botao { 
