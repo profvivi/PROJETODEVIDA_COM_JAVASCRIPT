@@ -68,7 +68,7 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--lilas);
 }
 
 .abas-textos{
@@ -89,7 +89,7 @@ body {
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--verde);
+    color: var(--lilas);
     text-transform: uppercase;
 }
 /*responsividade*/
