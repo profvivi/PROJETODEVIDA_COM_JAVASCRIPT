@@ -89,7 +89,7 @@ body {
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--lilas);
+    color: var(--branco);
     text-transform: uppercase;
 }
 /*responsividade*/
