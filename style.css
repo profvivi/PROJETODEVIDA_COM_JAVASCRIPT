@@ -105,13 +105,13 @@ body {
     min-width: 100px;
 }
 
-.contador-digito-numero{
+.contador-digito-numero{ /*aula 8*/
     font-size: 80px;
     margin: 0;
 
 }
 
-.contador-digito-texto{
+.contador-digito-texto{ /*aula 8*/
     color: var(--verde);
     font-size: 20px;
     margin: 0;
