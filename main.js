@@ -232,3 +232,5 @@ function comecaCronometro(){ //adicionado
     atualizaCronometro(); //adicionado
     setInterval(atualizaCronometro,1000); //adicionado
 }
+
+comecaCronometro();
