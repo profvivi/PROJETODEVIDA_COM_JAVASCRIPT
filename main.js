@@ -34,7 +34,7 @@ function calculaTempo(tempoObjetivo) {
  
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 }
-*/
+*//*
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
@@ -233,4 +233,4 @@ function comecaCronometro(){ //adicionado
     setInterval(atualizaCronometro,1000); //adicionado
 }
 
-comecaCronometro();
+comecaCronometro(); //adicionado
