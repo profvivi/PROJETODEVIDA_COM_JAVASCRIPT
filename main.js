@@ -55,7 +55,7 @@ function comecaCronometro(){
 comecaCronometro();
 
 */
-//Aula 10
+//Aula 10 - Projeto Finalizado
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
@@ -93,9 +93,9 @@ function calculaTempo(tempoObjetivo) {
     minutos %= 60;
     horas %= 24;
     if (tempoFinal > 0){
-        return [dias,horas,minutos,segundos];
+        return [dias,horas,minutos,segundos,""];
     } else {
-        return [0,0,0,0];
+        return [0,0,0,0,"projeto finalizado"];
     }
 }
  
