@@ -54,7 +54,10 @@ function comecaCronometro(){
 
 comecaCronometro();
 
+Aula 8 - mantém o código
+
 */
+
 //Aula 10 - Projeto Finalizado
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
