@@ -95,7 +95,7 @@ function calculaTempo(tempoObjetivo) {
     if (tempoFinal > 0){
         return [dias,horas,minutos,segundos];
     } else {
-        return "prazo"[0,0,0,0];
+        return ["Prazo Finalizado" + 0,0,0,0];
     }
 }
  
