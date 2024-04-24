@@ -95,11 +95,8 @@ function calculaTempo(tempoObjetivo) {
     if (tempoFinal > 0){
         return [dias,horas,minutos,segundos];
     } else {
-        return "Prazo Finalizado"
+        return [0,0,0,0];
     }
-    else {
-    return [0,0,0,0];
-}
 }
 
 function atualizaCronometro(){
