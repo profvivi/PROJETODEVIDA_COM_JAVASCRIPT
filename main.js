@@ -98,9 +98,7 @@ function calculaTempo(tempoObjetivo) {
         return [0,0,0,0];
     }
 }
-    if (tempoFinal < 0){
-        return "Tempo esgotado";
-}
+ 
 
 function atualizaCronometro(){
     for (let i=0; i<contadores.length;i++){
