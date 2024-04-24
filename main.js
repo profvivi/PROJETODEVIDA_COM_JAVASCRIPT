@@ -106,7 +106,8 @@ function atualizaCronometro(){
     document.getElementById("min0").textContent = calculaTempo(tempos[0])[2];
     document.getElementById("seg0").textContent = calculaTempo(tempos[0])[3];
 
-    for (let i=0; i<contadores.length;i++){
+    for (let i=0; i<contadores.length;i++){ //adicionar aula9
+        
        // contadores[i].textContent = calculaTempo(tempos[i]);   
     }
 }
@@ -158,7 +159,7 @@ function calculaTempo(tempoObjetivo) {
 }
  
 
-function atualizaCronometro(){
+function atualizaCronometro(){ //adicionar aula10
     for (let i=0; i<contadores.length;i++){
         document.getElementById("dias"+i).textContent = calculaTempo(tempos[i])[0];
         document.getElementById("horas"+i).textContent = calculaTempo(tempos[i])[1];
