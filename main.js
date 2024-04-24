@@ -99,7 +99,7 @@ function calculaTempo(tempoObjetivo) {
     }
 }
     if (tempoFinal < 0){
-        return Tempo esgotado";
+        return "Tempo esgotado";
 }
 
 function atualizaCronometro(){
