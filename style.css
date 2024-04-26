@@ -66,10 +66,7 @@ body {
     border-bottom: 4px solid var(--lilas);
 }
 
-.botao.ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--lilas);
-}
+
 
 .abas-textos{
     background-color: var(--texto-fundo);
