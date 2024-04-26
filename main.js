@@ -139,7 +139,6 @@ const tempoObjetivo4 = new Date("2024-12-31T00:00:00");
 
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
-
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
@@ -154,10 +153,9 @@ function calculaTempo(tempoObjetivo) {
     if (tempoFinal > 0){
         return [dias,horas,minutos,segundos];
     } else {
-        return ["Prazo Finalizado" || 0,0,0,0];
+        return [0,0,0,0];
     }
 }
- 
 
 function atualizaCronometro(){ //adicionar aula10
     for (let i=0; i<contadores.length;i++){
